@@ -21,7 +21,7 @@
         <dependency>
           <groupId>org.testng</groupId>
           <artifactId>testng</artifactId>
-          <version>7.3.0</version>
+          <version>7.5.1</version>
           <scope>test</scope>
         </dependency>
         <dependency>
@@ -89,7 +89,7 @@
         <dependency>
           <groupId>org.testng</groupId>
           <artifactId>testng</artifactId>
-          <version>7.3.0</version>
+          <version>7.5.1</version>
           <scope>test</scope>
         </dependency>
         <dependency>
@@ -224,7 +224,7 @@
         <dependency>
           <groupId>org.testng</groupId>
           <artifactId>testng</artifactId>
-          <version>7.3.0</version>
+          <version>7.5.1</version>
           <scope>test</scope>
         </dependency>
         <dependency>
@@ -308,7 +308,7 @@
     <prefix />
     <github.global.server>github</github.global.server>
     <jsr305.version>3.0.2</jsr305.version>
-    <guava.version>30.1-jre</guava.version>
+    <guava.version>32.0.0-jre</guava.version>
     <proguard.version>6.2.2</proguard.version>
     <jacoco.version>0.8.6</jacoco.version>
     <powermock.version>2.0.9</powermock.version>
