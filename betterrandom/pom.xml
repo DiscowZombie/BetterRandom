@@ -325,9 +325,9 @@
     <doclint>none</doclint>
   </properties>
   <groupId>io.github.pr0methean.betterrandom</groupId>
-  <artifactId>BetterRandom</artifactId>
+  <artifactId>betterRandom</artifactId>
   <version>5.6.3-SNAPSHOT</version>
-  <name>BetterRandom</name>
+  <name>betterrandom</name>
   <description>Better, faster random-number generation in Java.
   </description>
   <url>https://github.com/Pr0methean/BetterRandom</url>
@@ -344,7 +344,7 @@
     <url>https://github.com/Pr0methean/BetterRandom</url>
     <connection>scm:git:git://github.com/Pr0methean/BetterRandom.git</connection>
     <developerConnection>scm:git:git@github.com:Pr0methean/BetterRandom.git</developerConnection>
-    <tag>BetterRandom-5.0.1-SNAPSHOT</tag>
+    <tag>betterrandom-5.0.1-SNAPSHOT</tag>
   </scm>
 
   <distributionManagement>
