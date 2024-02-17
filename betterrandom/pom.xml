@@ -50,7 +50,7 @@
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-failsafe-plugin</artifactId>
-              <version>2.22.2</version>
+              <version>3.2.5</version>
               <configuration>
                 <argLine>@{argLine} ${test.jdk8.argline}</argLine>
               </configuration>
@@ -117,7 +117,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-failsafe-plugin</artifactId>
-            <version>2.22.2</version>
+            <version>3.2.5</version>
             <configuration>
               <argLine>@{argLine} ${test.jdk9.argline}</argLine>
             </configuration>
@@ -488,7 +488,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-failsafe-plugin</artifactId>
-          <version>2.22.2</version>
+          <version>3.2.5</version>
           <configuration>
             <argLine>@{argLine} ${test.jdk9.argline}</argLine>
             <suiteXmlFiles>
