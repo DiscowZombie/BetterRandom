@@ -20,6 +20,6 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
       - name: Publish package
-        run: mvn -B deploy -DskipTests
+        run: mvn -B --pl betterrandom -am deploy -DskipTests
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
