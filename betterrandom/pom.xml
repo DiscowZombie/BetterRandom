@@ -325,9 +325,9 @@
     <doclint>none</doclint>
   </properties>
   <groupId>io.github.pr0methean.betterrandom</groupId>
-  <artifactId>BetterRandom</artifactId>
+  <artifactId>betterrandom</artifactId>
   <version>5.6.3-SNAPSHOT</version>
-  <name>BetterRandom</name>
+  <name>betterrandom</name>
   <description>Better, faster random-number generation in Java.
   </description>
   <url>https://github.com/Pr0methean/BetterRandom</url>
@@ -344,20 +344,18 @@
     <url>https://github.com/Pr0methean/BetterRandom</url>
     <connection>scm:git:git://github.com/Pr0methean/BetterRandom.git</connection>
     <developerConnection>scm:git:git@github.com:Pr0methean/BetterRandom.git</developerConnection>
-    <tag>BetterRandom-5.0.1-SNAPSHOT</tag>
+    <tag>betterrandom-5.0.1-SNAPSHOT</tag>
   </scm>
 
   <distributionManagement>
-    <snapshotRepository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Sonatype Nexus snapshot repository</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>sonatype-nexus-staging</id>
-      <name>Sonatype Nexus release repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-    </repository>
+      <snapshotRepository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/DiscowZombie/BetterRandom</url>
+      </snapshotRepository>
+      <repository>
+          <id>github</id>
+          <url>https://maven.pkg.github.com/DiscowZombie/BetterRandom</url>
+      </repository>
   </distributionManagement>
 
   <dependencies>
