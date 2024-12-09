@@ -75,7 +75,7 @@ THE POSSIBILITY OF SUCH DAMAGE.
     <dependency>
       <artifactId>betterrandom</artifactId>
       <groupId>io.github.pr0methean.betterrandom</groupId>
-      <version>5.6.3-SNAPSHOT<!--updateme--></version>
+      <version>5.6.4-SNAPSHOT<!--updateme--></version>
     </dependency>
     <dependency>
       <groupId>com.google.guava</groupId>
