@@ -42,7 +42,7 @@
             <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-surefire-plugin</artifactId>
-              <version>3.2.5</version>
+              <version>3.5.2</version>
               <configuration>
                 <argLine>@{argLine} ${test.jdk8.argline}</argLine>
               </configuration>
@@ -109,7 +109,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.2.5</version>
+            <version>3.5.2</version>
             <configuration>
               <argLine>@{argLine} ${test.jdk9.argline}</argLine>
             </configuration>
@@ -463,7 +463,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.2.5</version>
+          <version>3.5.2</version>
           <configuration>
             <argLine>@{argLine} ${test.jdk9.argline}</argLine>
             <suiteXmlFiles>
